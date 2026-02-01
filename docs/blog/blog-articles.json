@@ -1,6 +1,32 @@
 {
   "articles": [
     {
+      "id": "neon-open-source-program",
+      "title": "Claude Code Templates Joins the Neon Open Source Program",
+      "description": "We're excited to announce that Claude Code Templates has been accepted into the Neon Open Source Program, bringing $5,000 annual sponsorship, co-marketing opportunities, and instant Postgres provisioning to all users.",
+      "url": "neon-open-source-program/",
+      "image": "assets/neon-open-source-program-cover.svg",
+      "category": "Partnership",
+      "readTime": "5 min read",
+      "tags": ["Neon", "Postgres", "Open Source", "Partnership", "Sponsorship"],
+      "difficulty": "basic",
+      "featured": true,
+      "order": 0
+    },
+    {
+      "id": "neon-complete-template-integration",
+      "title": "Complete Neon Template for Claude Code: Instant Provisioning + Expert Agents",
+      "description": "Complete Neon ecosystem for Claude Code: 1 auto-provisioning Skill + 5 expert agents + MCP + monitoring tools. From zero to production-optimized Postgres in minutes.",
+      "url": "neon-complete-template-integration.html",
+      "image": "assets/neon-template-cover.png",
+      "category": "Partnership",
+      "readTime": "12 min read",
+      "tags": ["Neon", "Postgres", "Template", "Skills", "Agents", "MCP", "Partnership"],
+      "difficulty": "basic",
+      "featured": true,
+      "order": 1
+    },
+    {
       "id": "frontend-developer-agent",
       "title": "Claude Code Frontend Developer Agent: Complete 2025 Tutorial",
       "description": "Complete guide to the #1 most downloaded Claude Code component. Build modern web applications with React, Vue, and Next.js using AI-powered frontend development. 7,553+ installations.",
@@ -200,14 +226,53 @@
       "difficulty": "basic",
       "featured": true,
       "order": 16
+    },
+    {
+      "id": "react-best-practices-skill",
+      "title": "React Best Practices Skill: 40+ Performance Optimization Rules",
+      "description": "Master React and Next.js performance optimization with 40+ proven rules. Learn to eliminate waterfalls, optimize bundles, and improve rendering performance in your applications.",
+      "url": "react-best-practices-skill/",
+      "image": "assets/react-best-practices-skill-cover.svg",
+      "category": "Skills",
+      "readTime": "8 min read",
+      "tags": ["React", "Next.js", "Performance", "Optimization", "Best Practices", "Skills"],
+      "difficulty": "intermediate",
+      "featured": true,
+      "order": 17
+    },
+    {
+      "id": "heygen-best-practices-skill",
+      "title": "HeyGen Best Practices Skill: AI Avatar Video Creation Guide",
+      "description": "Master HeyGen API integration with 18+ best practice rules. Learn to create AI avatar videos, manage voices, handle video generation workflows, and implement streaming avatars.",
+      "url": "heygen-best-practices-skill/",
+      "image": "assets/heygen-best-practices-skill-cover.svg",
+      "category": "Skills",
+      "readTime": "10 min read",
+      "tags": ["HeyGen", "AI Video", "Avatar", "Text-to-Video", "API Integration", "Skills"],
+      "difficulty": "intermediate",
+      "featured": true,
+      "order": 18
+    },
+    {
+      "id": "security-hooks-secrets",
+      "title": "Block API Keys & Secrets from Your Commits with Claude Code Hooks",
+      "description": "Learn how to set up a PreToolUse hook in Claude Code that automatically detects and blocks commits containing API keys, passwords, and secrets.",
+      "url": "security-hooks-secrets/",
+      "image": "assets/security-hooks-secrets-cover.svg",
+      "category": "Security",
+      "readTime": "4 min read",
+      "tags": ["Security", "Hooks", "Git", "Secrets", "Best Practices"],
+      "difficulty": "intermediate",
+      "featured": true,
+      "order": 19
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-01-02",
-    "totalArticles": 16,
+    "lastUpdated": "2026-01-27",
+    "totalArticles": 20,
     "difficultyLevels": {
       "basic": 8,
-      "intermediate": 3,
+      "intermediate": 6,
       "advanced": 5
     }
   }
